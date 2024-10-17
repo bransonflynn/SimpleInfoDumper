@@ -32,5 +32,8 @@
     <ClInclude Include="NetworkData.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="FirmwareData.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

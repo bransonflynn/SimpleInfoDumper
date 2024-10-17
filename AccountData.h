@@ -28,7 +28,7 @@ namespace AccData {
 	std::string initUsername() {
 		// windows only afaik
 		char* username{ nullptr };
-		size_t len{ 0 };
+		std::size_t len{ 0 };
 
 		if (_dupenv_s(&username, &len, "USERNAME") == 0 && username != nullptr) {
 			std::string usernameStr = static_cast<std::string>(username);
@@ -36,7 +36,7 @@ namespace AccData {
 			return usernameStr;
 		}
 		else {
-			return "ErrorNoUsername";
+			return "ErrorMissingUsername";
 		}
 	}
 }

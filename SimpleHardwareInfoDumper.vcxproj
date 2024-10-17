@@ -139,6 +139,7 @@
     <ClCompile Include="SimpleInfoDumper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FirmwareData.h" />
     <ClInclude Include="HardwareData.h" />
     <ClInclude Include="AccountData.h" />
     <ClInclude Include="NetworkData.h" />

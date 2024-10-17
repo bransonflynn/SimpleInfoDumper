@@ -1,10 +1,10 @@
 #include <iostream>
 #include <map>
 #include "AccountData.h"
+#include "FirmwareData.h"
 #include "HardwareData.h"
 #include "NetworkData.h"
 #include "UserDataObject.h"
-
 
 
 int main() {
@@ -12,6 +12,7 @@ int main() {
 	
 	// data setup block
 	AccData::AccountData UserAccountData;
+	FirmData::FirmwareData UserFirmwareData;
 	HWData::HWData UserHardwareData;
 	NetData::NetworkData UserNetworkData;
 	
